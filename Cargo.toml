@@ -1,0 +1,19 @@
+[workspace]
+resolver = "2"
+
+[package]
+name = "breakage"
+description = "A minimal example of wasm and quad_url breakage."
+version = "0.1.0"
+license = "MIT"
+publish = true
+authors = ["Caspar Krieger <git@asparck.com>"]
+edition = "2021"
+exclude = [
+    "build",
+    ".gitignore",
+]
+
+[dependencies]
+macroquad = { version = "0.4", features = [] }
+quad-url = "0.1.1"
