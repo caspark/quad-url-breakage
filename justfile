@@ -10,14 +10,14 @@ web-dependencies: rebuild-js
 
 # Rebuild the JS dependency based on checked out macroquad dependencies
 rebuild-js:
-    [ -f build/web/mq_js_bundle.js ] && rm build/web/mq_js_bundle.js
+    # [ -f build/web/mq_js_bundle.js ] && rm build/web/mq_js_bundle.js
 
-    cat "$HOME/srb/miniquad/js/gl.js" >> build/web/mq_js_bundle.js
-    cat "$HOME/srb/quad-snd/js/audio.js" >> build/web/mq_js_bundle.js
-    cat "$HOME/srb/sapp-jsutils/js/sapp_jsutils.js" >> build/web/mq_js_bundle.js
-    cat "$HOME/srb/quad-net/js/quad-net.js" >> build/web/mq_js_bundle.js
-    cat "$HOME/srb/quad-url/js/quad-url.js" >> build/web/mq_js_bundle.js
-    cat "$HOME/srb/gamepads/js/macroquad-gamepads-0.1.js" >> build/web/mq_js_bundle.js
+    # cat "$HOME/srb/miniquad/js/gl.js" >> build/web/mq_js_bundle.js
+    # cat "$HOME/srb/quad-snd/js/audio.js" >> build/web/mq_js_bundle.js
+    # cat "$HOME/srb/sapp-jsutils/js/sapp_jsutils.js" >> build/web/mq_js_bundle.js
+    # cat "$HOME/srb/quad-net/js/quad-net.js" >> build/web/mq_js_bundle.js
+    # cat "$HOME/srb/quad-url/js/quad-url.js" >> build/web/mq_js_bundle.js
+    # cat "$HOME/srb/gamepads/js/macroquad-gamepads-0.1.js" >> build/web/mq_js_bundle.js
 
 # Build the web distributable
 web-build:

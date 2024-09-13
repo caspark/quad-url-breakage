@@ -17,3 +17,8 @@ exclude = [
 [dependencies]
 macroquad = { version = "0.4", features = [] }
 quad-url = "0.1.1"
+
+sapp-jsutils = "=0.1.5"
+
+[patch.crates-io]
+# quad-url = { path = "../../srb/quad-url" }
